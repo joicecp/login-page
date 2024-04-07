@@ -1,0 +1,25 @@
+@import "../../../styles/variables.scss";
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /*alinhar todos os conteúdos no centro de suas caixinhas*/
+    align-items: center;
+    justify-content: center;
+
+    .section {
+        height: 100%;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*gap = espaçamento entre dois elementos*/
+        gap: 8px;
+        flex-grow: 1;
+
+        background-color: $gray-bg;
+    }
+}
